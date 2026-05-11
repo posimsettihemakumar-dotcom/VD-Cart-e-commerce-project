@@ -1,0 +1,37 @@
+.banner{
+    height:400px;
+    background: linear-gradient(to right,#2874f0,#0f4db8);
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+}
+ .banner-content h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+
+}
+.banner-content p{
+    font-size: 20px;
+    margin-bottom: 25px;
+   
+}
+.banner-content button{
+    padding: 14px 28px;
+    border:none;
+    border-radius: 8px;
+    background: #ffd890;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.offer-text{
+    color:rgb(255, 0, 149);
+    margin-top: 10px;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0%{opacity: 1;}
+    50%{opacity: 0.3;}
+    100%{opacity:1;}
+}

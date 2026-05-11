@@ -1,0 +1,21 @@
+.coupon-box{
+    display:flex;
+    gap:10px;
+    margin:20px 0;
+}
+
+.coupon-box input{
+    flex:1;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.coupon-box button{
+    padding:12px 20px;
+    border:none;
+    background:orange;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
